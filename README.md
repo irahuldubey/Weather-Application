@@ -1,6 +1,6 @@
-# Weather
+# Weather Application
 
-Weather Application : Uses Weather API to fetch the data and displayed to use in customized format.
+Weather Application uses Weather API to fetch the data and displayed to use in customized format.
 
 Public API for weather details:
 http://api.openweathermap.org/data/2.5/weather?q=Westervile,oh,us&APPID=YOUR_APP_ID
