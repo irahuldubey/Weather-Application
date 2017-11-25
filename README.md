@@ -8,8 +8,6 @@ http://api.openweathermap.org/data/2.5/weather?q=Westervile,oh,us&APPID=YOUR_APP
 Icons can be download from here:
 http://openweathermap.org/weather-conditions 
 
-Sample URL with Personal Key: http://api.openweathermap.org/data/2.5/weather?appid=f0fabeaad750dd1a5de08d011233f5c2&q=tampa&mode=json&units=imperial. 
-
 ## Warnings :
 
 App Icons need to fir the default sizes expected by the XCode. Runs on all iOS Devices
@@ -35,11 +33,14 @@ App Icons need to fir the default sizes expected by the XCode. Runs on all iOS D
 
 <img width="545" alt="Launch Page" src="https://user-images.githubusercontent.com/29422737/33234538-9499d770-d1f6-11e7-9980-3d23403db934.png">
 
-### Home Screen
+### Landing Page
+
+<img width="545" alt="Landing Screen" src="https://user-images.githubusercontent.com/29422737/33234624-818b8c9e-d1f8-11e7-8884-47afd656f3b6.png">
+
+
+### Search Result Screen
 
 <img width="545" alt="Home Screen" src="https://user-images.githubusercontent.com/29422737/33234547-b4d5aa82-d1f6-11e7-901d-cff589e3b0e9.png">
-
-
 
 
 
