@@ -29,5 +29,6 @@ Additions:
 
 Application Screenshots :
 
-![Alt text](Weather/Screenshots/Sample Screenshot 1.png?raw=true "Launch Page")
+![ScreenShot](Weather/Screenshots/Sample Screenshot 1.png)
+
 
