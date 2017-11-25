@@ -10,7 +10,7 @@ http://openweathermap.org/weather-conditions
 
 ## Warnings :
 
-App Icons need to fir the default sizes expected by the XCode. Runs on all iOS Devices
+App Icons need to fit the default sizes expected by the XCode. Runs on all iOS Devices
 
 ## Improvements : 
 
