@@ -27,3 +27,7 @@ Additions:
 
 1. Add unit test cases: Add Mocks and Stubs as necessary to test different scenarios of JSON response from the server.
 
+Application Screenshots :
+
+![Alt text](Weather/Screenshots/Sample Screenshot 1.png?raw=true "Launch Page")
+
