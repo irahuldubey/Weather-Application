@@ -27,7 +27,17 @@ Additions:
 
 1. Add unit test cases: Add Mocks and Stubs as necessary to test different scenarios of JSON response from the server.
 
+Application Screenshots
+
+Launch Image 
 
 <img width="545" alt="Launch Page" src="https://user-images.githubusercontent.com/29422737/33234538-9499d770-d1f6-11e7-9980-3d23403db934.png">
+
+Home Screen
+
+<img width="545" alt="Home Screen" src="https://user-images.githubusercontent.com/29422737/33234547-b4d5aa82-d1f6-11e7-901d-cff589e3b0e9.png">
+
+
+
 
 
