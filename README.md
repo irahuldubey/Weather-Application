@@ -10,9 +10,11 @@ http://openweathermap.org/weather-conditions
 
 Sample URL with Personal Key: http://api.openweathermap.org/data/2.5/weather?appid=f0fabeaad750dd1a5de08d011233f5c2&q=tampa&mode=json&units=imperial. 
 
-Warnings : App Icons need to fir the default sizes expected by the XCode. Runs on all iOS Devices
+## Warnings :
 
-Improvements : 
+App Icons need to fir the default sizes expected by the XCode. Runs on all iOS Devices
+
+## Improvements : 
 
 1. ImageDownload Manager: Need to have caching mechanism to download the Image. Handle caching in memory and NSCache.
 2. Data Store Manager: This is responsible for handling data operations in the application as of now the application uses NSUserDefaults to save the last searched String and fetch the same with latest update when use visits the application next time.
@@ -23,17 +25,17 @@ Improvements :
  format. There can be customization to accept the parameter type as Celsius
  or Fahrenheit formats. If use needs to toggle between the C and F we need to add customization from the application side.
 
-Additions:
+## Additions:
 
 1. Add unit test cases: Add Mocks and Stubs as necessary to test different scenarios of JSON response from the server.
 
-Application Screenshots
+## Application Screenshots
 
-Launch Image 
+### Launch Image 
 
 <img width="545" alt="Launch Page" src="https://user-images.githubusercontent.com/29422737/33234538-9499d770-d1f6-11e7-9980-3d23403db934.png">
 
-Home Screen
+### Home Screen
 
 <img width="545" alt="Home Screen" src="https://user-images.githubusercontent.com/29422737/33234547-b4d5aa82-d1f6-11e7-901d-cff589e3b0e9.png">
 
