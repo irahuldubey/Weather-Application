@@ -12,7 +12,6 @@ Sample URL with Personal Key: http://api.openweathermap.org/data/2.5/weather?app
 
 Warnings : App Icons need to fir the default sizes expected by the XCode. Runs on all iOS Devices
 
-###headings
 Improvements : 
 
 1. ImageDownload Manager: Need to have caching mechanism to download the Image. Handle caching in memory and NSCache.
