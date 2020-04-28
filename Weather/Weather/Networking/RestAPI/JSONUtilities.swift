@@ -19,7 +19,7 @@ final class JSONUtilities {
   /// - Parameter data: as of type Data
   /// - Returns: as of type Dictionary
   static func parseToDictionary(_ data: Data) -> JSONDictionary? {
-    guard let parsedJson = try? JSONSerialization.jsonObject(with: data, options:.allowFragments) as? JSONDictionary else {
+    guard let parsedJson = ((try? JSONSerialization.jsonObject(with: data, options:.allowFragments) as? JSONDictionary) as JSONDictionary??) else {
       ///Add to logger API
       print("JSONUtilities: Function: ParseToDictionary - Invalid JSON data")
       return nil

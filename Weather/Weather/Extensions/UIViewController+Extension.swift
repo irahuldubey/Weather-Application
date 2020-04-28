@@ -29,7 +29,7 @@ public extension ActivityIndicatorProtocol where Self: UIViewController {
   func showLoadingIndicator(withSize size: CGSize) {
     //Create instance of activity Indicator on main queue, UIKit update should be on main queue
     DispatchQueue.main.async {
-      self.activityIndicator.activityIndicatorViewStyle = .whiteLarge
+      self.activityIndicator.style = .whiteLarge
       self.activityIndicator.frame = CGRect(x: 0, y: 0, width: size.width, height: size.height)
       self.activityIndicator.center = self.view.center
       self.activityIndicator.layer.cornerRadius = 6
@@ -71,8 +71,8 @@ extension UIViewController {
   public func show(title: String,
                    message: String,
                    actionTitle: String,
-                   preferredStyle: UIAlertControllerStyle,
-                   actionStyle: UIAlertActionStyle) {
+                   preferredStyle: UIAlertController.Style,
+                   actionStyle: UIAlertAction.Style) {
     
     let alert = UIAlertController.init(title: title, message: message, preferredStyle: preferredStyle)
     alert.addAction(UIAlertAction.init(title: actionTitle, style: actionStyle, handler: nil))
